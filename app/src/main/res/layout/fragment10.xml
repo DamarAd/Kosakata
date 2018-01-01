@@ -24,14 +24,14 @@
             android:layout_marginTop="124dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            app:srcCompat="@drawable/corn"
-            android:id="@+id/jagung" />
+            app:srcCompat="@drawable/coconut"
+            android:id="@+id/kelapa" />
 
         <TextView
-            android:id="@+id/teks5"
+            android:id="@+id/teks10"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_below="@+id/jagung"
+            android:layout_below="@+id/kelapa"
             android:layout_marginTop="42dp"
             android:text="____"
             android:textSize="48sp"
@@ -52,7 +52,7 @@
 
         <Button
             android:onClick="menu"
-            android:id="@+id/kembali5"
+            android:id="@+id/kembali10"
             android:layout_width="98dp"
             android:layout_height="match_parent"
             android:background="@drawable/buttonstylegradientwhite"
@@ -61,7 +61,7 @@
             android:textColor="@color/endblue"/>
 
         <Button
-            android:id="@+id/lihat5"
+            android:id="@+id/lihat10"
             android:layout_width="98dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="52dp"
